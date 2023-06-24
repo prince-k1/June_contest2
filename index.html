@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>June_contest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heading">
+        <ul>
+            <li class="bok"><a href="#books">Books</a></li>
+            <li class="reg"><a href="#register">Register</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="books" class="books">
+            <h1 class="heading1">Books</h1>
+            <table class="main_table">
+                <thead>
+                    <tr class="row_head">
+                        <th class="thead">Book ID</td>
+                        <th class="thead">Title</td>
+                        <th class="thead">Author</td>
+                        <th class="thead">Genre</td>
+                        <th class="thead">Availability</td>
+                    </tr>
+                </thead>
+                    <tr class="book_library">
+                        <td class="book_id">1</td>
+                        <td class="table_small">
+                            <div class="booktitle">
+                                <a href="#">Harry Potter</a>
+                            </div>
+                            <ul>
+                                <li>Publication Date: 2000</li>
+                                <li>Page count: 600</li>
+                                <li>ISBN: 123-4567890</li>
+                            </ul>
+                        </td>
+                        <td class="author">J.K Rowling</td>
+                        <td class="genre">Fantasy</td>
+                        <td class="available">available</td>
+                    </tr>
+                    <tr class="book_library">
+                        <td class="book_id">2</td>
+                        <td class="table_small">
+                            <div class="booktitle">
+                                <a href="#">Half Girlfriend</a>
+                            </div>
+                            <ul>
+                                <li >Publication Date: 2000</li>
+                                <li >Page count: 600</li>
+                                <li>ISBN: 123-4567890</li>
+                            </ul>
+                        </td>
+                        <td class="author">Mehta</td>
+                        <td class="genre">Romantic</td>
+                        <td class="available">available</td>
+                    </tr>
+                    <tr class="book_library">
+                        <td class="book_id">3</td>
+                        <td class="table_small">
+                            <div class="booktitle">
+                                <a href="#">12th Fail</a>
+                            </div>
+                            <ul>
+                                <li>Publication Date: 2000</li>
+                                <li>Page count: 600</li>
+                                <li>ISBN: 123-4567890</li>
+                            </ul>
+                        </td>
+                        <td class="author">Manoj</td>
+                        <td class="genre">Ispiration</td>
+                        <td class="available">available</td>
+                    </tr>
+
+                
+            </table>
+        </section>
+        <section class="form" id="register">
+            <h1>Register</h1>
+            <form action="#" method="post">
+                <div class="name">
+                    <label for="name">First Name:</label><br>
+                    <input type="text" required><br>
+                    <div class="last">
+                        <label for="name">Last Name:</label><br>
+                        <input type="text" required>
+                    </div>
+                    
+                </div>
+                <div class="dob">
+                    <label for="date_of_birth">Date Of Birth</label><br>
+                    <input type="datetime-local" required>
+                </div>
+                <div class="age">
+                    <label for="age">Age:</label><br>
+                    <input type="number" required>
+                </div>
+                <div class="email">
+                    <label for="email">Email:</label><br>
+                    <input type="email" required>
+                </div>
+                <div class="password">
+                    <label for="password">Password</label><br>
+                    <input type="password" required>
+                </div>
+                <div class="confirm">
+                    <label for="confirm_password">Confirm Password</label><br>
+                    <input type="password" required>
+                </div>
+                <div class="submit">
+                    <input type="submit" id="btn" required>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

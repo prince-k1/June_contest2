@@ -1,0 +1,119 @@
+body{
+    background-color: azure;
+}
+*{
+    /* padding: 0px;
+    margin: 0px; */
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.heading{
+    background-color: antiquewhite;
+    height: 100px;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.main_table{
+    margin-top: 100px;
+}
+
+.heading ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    align-items: center;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.books{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    gap: 10px;
+}
+
+section{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+ input{
+    width: 100%;
+ }
+
+
+
+ .submit{
+    margin-top: 10px;
+ }
+
+ .book_id{
+    padding-left: 15px;
+ }
+
+ .booktitle{
+    padding-left: 30px;
+ }
+
+ .table_small{
+    margin-top: 20px;
+ }
+
+ .author, .genre{
+    padding-left: 50px;
+ }
+
+ .submit input{
+    background-color: black;
+    color: white;
+ }
+
+ form div{
+    margin-top: 10px ;
+ }
+
+ .last{
+    
+ }
+
+ .booktitle{
+    margin-top: 20px ;
+ }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
